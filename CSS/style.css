@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    width: 100px; /* Taille du logo */
+    height: 60px; /* Taille du logo */
+    margin-right: 20px;
+}
+
+.search-container {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#searchBox {
+    width: 80%;
+    padding: 10px 15px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3;
+}
+
+#results, #selectedItems {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.suggestion {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.suggestion:hover {
+    background-color: #f8f9fa;
+}
+
+#selectedItems div {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px; /* Taille de police augmentée pour les éléments sélectionnés */
+}
+
+#selectedItems button {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#selectedItems button:hover {
+    background-color: #c82333;
+}
